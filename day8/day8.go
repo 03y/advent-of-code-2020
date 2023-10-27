@@ -28,21 +28,16 @@ func main() {
                 switch (match[0][1]) {
                 case "nop":
                     i++
-                    break
                 case "acc":
                     acc += n
                     i++
-                    break
                 case "jmp":
                     i += n
-                    break
                 }
             }
         }
     }
 }
-
-
 
 func contains(slice []int, n int) bool {
     for i := range slice {
